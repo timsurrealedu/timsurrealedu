@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120" role="img" aria-label="It is now safe to turn off your computer.">
+<defs>
+<pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".32"/></pattern>
+<radialGradient id="vg" cx="50%" cy="50%" r="72%"><stop offset="62%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".7"/></radialGradient>
+<linearGradient id="band" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb000" stop-opacity="0"/><stop offset=".5" stop-color="#ffb000" stop-opacity=".06"/><stop offset="1" stop-color="#ffb000" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="scr"><rect width="900" height="120" rx="14"/></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#ffb000}
+.dim{fill:#b07c1c}.hot{fill:#ffe2a0}
+.flk{animation:flk 7s infinite}
+@keyframes flk{0%,47%,49%,83%,85%,100%{opacity:1}48%{opacity:.84}84%{opacity:.93}}
+.band{animation:band 6s linear infinite}
+@keyframes band{from{transform:translateY(-120px)}to{transform:translateY(120px)}}
+.blink{animation:blink 1.05s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.mask{transform-box:fill-box;transform-origin:right}
+@keyframes type{to{transform:scaleX(0)}}
+@keyframes fade{from{opacity:0}}
+.pw{transform-box:view-box;transform-origin:50% 50%}
+
+.off{animation:off 9s 1.2s infinite}
+@keyframes off{0%,72%,100%{transform:none;opacity:1}77%{transform:scale(1,.02);opacity:1}81%{transform:scale(0,.02);opacity:.8}82%,92%{transform:scale(0,0);opacity:0}96%{transform:scale(1,.02);opacity:1}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.mask{display:none}}
+</style>
+<g clip-path="url(#scr)">
+<rect width="900" height="120" fill="#120d07"/>
+<g class="pw off"><g class="flk" filter="url(#glow)">
+<text x="372.0" y="42" font-size="13" class="dim"  textLength="156.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">$ systemctl poweroff</text><rect class="mask" x="371.0" y="29.0" width="159.0" height="18.2" fill="#120d07" style="animation:type 0.44s steps(20,jump-start) 0.30s both"/>
+<g style="animation:fade .4s 1.2s both"><text x="204.0" y="80" font-size="20" class="hot"  textLength="492.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">It is now safe to turn off your computer.</text></g>
+</g></g>
+<rect class="band" width="900" height="120" fill="url(#band)"/>
+<rect width="900" height="120" fill="url(#sl)"/>
+<rect width="900" height="120" fill="url(#vg)"/>
+</g>
+<rect x="1" y="1" width="898" height="118" rx="13" fill="none" stroke="#2e200d" stroke-width="2"/>
+</svg>

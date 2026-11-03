@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 176" width="900" height="176" role="img" aria-label="Stack: Linux, Bash, Python, TypeScript, JavaScript, Rust, C, Nix, React, Node.js, Phaser, Git">
+<defs>
+<pattern id="sl" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity=".32"/></pattern>
+<radialGradient id="vg" cx="50%" cy="50%" r="72%"><stop offset="62%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".7"/></radialGradient>
+<linearGradient id="band" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb000" stop-opacity="0"/><stop offset=".5" stop-color="#ffb000" stop-opacity=".06"/><stop offset="1" stop-color="#ffb000" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="scr"><rect width="900" height="176" rx="14"/></clipPath>
+</defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#ffb000}
+.dim{fill:#b07c1c}.hot{fill:#ffe2a0}
+.flk{animation:flk 7s infinite}
+@keyframes flk{0%,47%,49%,83%,85%,100%{opacity:1}48%{opacity:.84}84%{opacity:.93}}
+.band{animation:band 6s linear infinite}
+@keyframes band{from{transform:translateY(-120px)}to{transform:translateY(176px)}}
+.blink{animation:blink 1.05s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+.mask{transform-box:fill-box;transform-origin:right}
+@keyframes type{to{transform:scaleX(0)}}
+@keyframes fade{from{opacity:0}}
+.pw{transform-box:view-box;transform-origin:50% 50%}
+@keyframes led{50%{opacity:.2}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.mask{display:none}}
+</style>
+<g clip-path="url(#scr)">
+<rect width="900" height="176" fill="#120d07"/>
+<g class="pw "><g class="flk" filter="url(#glow)">
+<text x="23.0" y="32" font-size="13" class="dim"  textLength="132.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">INSTALLED DEVICES</text><rect class="mask" x="22.0" y="19.0" width="135.6" height="18.2" fill="#120d07" style="animation:type 0.37s steps(17,jump-start) 0.20s both"/>
+<g style="animation:fade .2s 0.50s both"><rect x="23" y="50" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="37" cy="73.0" r="3.5" fill="#ffb000" style="animation:led 0.90s steps(1) 0.00s infinite"/><text x="49.0" y="78" font-size="14" class=""  textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Linux</text></g>
+<g style="animation:fade .2s 0.57s both"><rect x="167" y="50" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="181" cy="73.0" r="3.5" fill="#ffb000" style="animation:led 1.27s steps(1) 0.11s infinite"/><text x="193.0" y="78" font-size="14" class=""  textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Bash</text></g>
+<g style="animation:fade .2s 0.64s both"><rect x="311" y="50" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="325" cy="73.0" r="3.5" fill="#ffb000" style="animation:led 1.64s steps(1) 0.22s infinite"/><text x="337.0" y="78" font-size="14" class=""  textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Python</text></g>
+<g style="animation:fade .2s 0.71s both"><rect x="455" y="50" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="469" cy="73.0" r="3.5" fill="#ffb000" style="animation:led 2.01s steps(1) 0.33s infinite"/><text x="481.0" y="78" font-size="14" class=""  textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">TypeScript</text></g>
+<g style="animation:fade .2s 0.78s both"><rect x="599" y="50" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="613" cy="73.0" r="3.5" fill="#ffb000" style="animation:led 2.38s steps(1) 0.44s infinite"/><text x="625.0" y="78" font-size="14" class=""  textLength="84.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">JavaScript</text></g>
+<g style="animation:fade .2s 0.85s both"><rect x="743" y="50" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="757" cy="73.0" r="3.5" fill="#ffb000" style="animation:led 1.15s steps(1) 0.55s infinite"/><text x="769.0" y="78" font-size="14" class=""  textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Rust</text></g>
+<g style="animation:fade .2s 0.92s both"><rect x="23" y="106" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="37" cy="129.0" r="3.5" fill="#ffb000" style="animation:led 1.52s steps(1) 0.66s infinite"/><text x="49.0" y="134" font-size="14" class=""  textLength="8.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">C</text></g>
+<g style="animation:fade .2s 0.99s both"><rect x="167" y="106" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="181" cy="129.0" r="3.5" fill="#ffb000" style="animation:led 1.89s steps(1) 0.77s infinite"/><text x="193.0" y="134" font-size="14" class=""  textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Nix</text></g>
+<g style="animation:fade .2s 1.06s both"><rect x="311" y="106" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="325" cy="129.0" r="3.5" fill="#ffb000" style="animation:led 2.26s steps(1) 0.88s infinite"/><text x="337.0" y="134" font-size="14" class=""  textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">React</text></g>
+<g style="animation:fade .2s 1.13s both"><rect x="455" y="106" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="469" cy="129.0" r="3.5" fill="#ffb000" style="animation:led 1.03s steps(1) 0.99s infinite"/><text x="481.0" y="134" font-size="14" class=""  textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Node.js</text></g>
+<g style="animation:fade .2s 1.20s both"><rect x="599" y="106" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="613" cy="129.0" r="3.5" fill="#ffb000" style="animation:led 1.40s steps(1) 1.10s infinite"/><text x="625.0" y="134" font-size="14" class=""  textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Phaser</text></g>
+<g style="animation:fade .2s 1.27s both"><rect x="743" y="106" width="134" height="46" rx="3" fill="#1b140a" stroke="#b07c1c" stroke-width="1.2"/><circle cx="757" cy="129.0" r="3.5" fill="#ffb000" style="animation:led 1.77s steps(1) 1.21s infinite"/><text x="769.0" y="134" font-size="14" class=""  textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Git</text></g>
+</g></g>
+<rect class="band" width="900" height="120" fill="url(#band)"/>
+<rect width="900" height="176" fill="url(#sl)"/>
+<rect width="900" height="176" fill="url(#vg)"/>
+</g>
+<rect x="1" y="1" width="898" height="174" rx="13" fill="none" stroke="#2e200d" stroke-width="2"/>
+</svg>
