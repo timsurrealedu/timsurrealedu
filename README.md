@@ -32,10 +32,6 @@ I learn by building the thing before I fully understand it, breaking it, reading
   <img alt="Contribution graph eaten by a snake" src="https://raw.githubusercontent.com/timsurrealedu/timsurrealedu/output/snake-dark.svg" width="100%" />
 </picture>
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=timsurrealedu&background=120D07&border=2E200D&stroke=2E200D&ring=FFB000&fire=FFB000&currStreakNum=FFE2A0&sideNums=FFB000&currStreakLabel=FFB000&sideLabels=B07C1C&dates=B07C1C&border_radius=14" alt="Contribution streak" />
-</div>
-
 ### <kbd>F5</kbd> Contact
 
 <a href="https://timsurreal.vercel.app"><img src="https://img.shields.io/badge/portfolio-timsurreal.vercel.app-120D07?style=for-the-badge&labelColor=FFB000&color=120D07" alt="Portfolio: timsurreal.vercel.app" /></a>
