@@ -21,7 +21,7 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',mo
 .pw{transform-box:view-box;transform-origin:50% 50%}
 
 .scan{transform-box:fill-box;transform-origin:bottom;animation:type 2.4s steps(30) .3s both}
-.sel{animation:fade .2s 8.53s both,sel 12.6s steps(1) 8.53s infinite}
+.sel{animation:fade .2s 8.64s both,sel 12.6s steps(1) 8.64s infinite}
 @keyframes sel{0.00%{transform:translateY(0px)}11.11%{transform:translateY(30px)}22.22%{transform:translateY(60px)}33.33%{transform:translateY(90px)}44.44%{transform:translateY(120px)}55.56%{transform:translateY(150px)}66.67%{transform:translateY(180px)}77.78%{transform:translateY(210px)}88.89%{transform:translateY(240px)}}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important}.mask{display:none}}
@@ -44,18 +44,18 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',mo
 <g style="animation:fade .15s 3.73s both"><text x="384.0" y="158" font-size="14" class="dim"  textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Track</text></g>
 <text x="520.0" y="158" font-size="14" class=""  textLength="117.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Cyber Security</text><rect class="mask" x="519.0" y="144.0" width="120.6" height="19.6" fill="#120d07" style="animation:type 0.31s steps(14,jump-start) 3.83s both"/>
 <g style="animation:fade .15s 4.22s both"><text x="384.0" y="188" font-size="14" class="dim"  textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Works on</text></g>
-<text x="520.0" y="188" font-size="14" class=""  textLength="218.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">detections, backend, infra</text><rect class="mask" x="519.0" y="174.0" width="221.4" height="19.6" fill="#120d07" style="animation:type 0.57s steps(26,jump-start) 4.32s both"/>
-<g style="animation:fade .15s 4.97s both"><text x="384.0" y="218" font-size="14" class="dim"  textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Desktops</text></g>
-<text x="520.0" y="218" font-size="14" class=""  textLength="277.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Arch+niri, Fedora+Hyprland, NixOS</text><rect class="mask" x="519.0" y="204.0" width="280.2" height="19.6" fill="#120d07" style="animation:type 0.73s steps(33,jump-start) 5.07s both"/>
-<g style="animation:fade .15s 5.87s both"><text x="384.0" y="248" font-size="14" class="dim"  textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Editor</text></g>
-<text x="520.0" y="248" font-size="14" class=""  textLength="126.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Neovim, VS Code</text><rect class="mask" x="519.0" y="234.0" width="129.0" height="19.6" fill="#120d07" style="animation:type 0.33s steps(15,jump-start) 5.97s both"/>
-<g style="animation:fade .15s 6.38s both"><text x="384.0" y="278" font-size="14" class="dim"  textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Languages</text></g>
-<text x="520.0" y="278" font-size="14" class=""  textLength="260.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">English (IELTS 8.0), Indonesian</text><rect class="mask" x="519.0" y="264.0" width="263.4" height="19.6" fill="#120d07" style="animation:type 0.68s steps(31,jump-start) 6.48s both"/>
-<g style="animation:fade .15s 7.25s both"><text x="384.0" y="308" font-size="14" class="dim"  textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Method</text></g>
-<text x="520.0" y="308" font-size="14" class=""  textLength="252.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">build it, break it, rebuild it</text><rect class="mask" x="519.0" y="294.0" width="255.0" height="19.6" fill="#120d07" style="animation:type 0.66s steps(30,jump-start) 7.35s both"/>
-<g style="animation:fade .15s 8.09s both"><text x="384.0" y="338" font-size="14" class="dim"  textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Status</text></g>
-<text x="520.0" y="338" font-size="14" class=""  textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">open to work</text><rect class="mask" x="519.0" y="324.0" width="103.8" height="19.6" fill="#120d07" style="animation:type 0.26s steps(12,jump-start) 8.19s both"/>
-<circle class="blink" cx="632.8" cy="333" r="4.5" fill="#ffb000" style="animation-delay:8.53s"/>
+<text x="520.0" y="188" font-size="14" class=""  textLength="201.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">detections, infra, tools</text><rect class="mask" x="519.0" y="174.0" width="204.6" height="19.6" fill="#120d07" style="animation:type 0.53s steps(24,jump-start) 4.32s both"/>
+<g style="animation:fade .15s 4.92s both"><text x="384.0" y="218" font-size="14" class="dim"  textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Desktops</text></g>
+<text x="520.0" y="218" font-size="14" class=""  textLength="277.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Arch+niri, Fedora+Hyprland, NixOS</text><rect class="mask" x="519.0" y="204.0" width="280.2" height="19.6" fill="#120d07" style="animation:type 0.73s steps(33,jump-start) 5.02s both"/>
+<g style="animation:fade .15s 5.83s both"><text x="384.0" y="248" font-size="14" class="dim"  textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Into</text></g>
+<text x="520.0" y="248" font-size="14" class=""  textLength="184.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">AI: new models, agents</text><rect class="mask" x="519.0" y="234.0" width="187.8" height="19.6" fill="#120d07" style="animation:type 0.48s steps(22,jump-start) 5.93s both"/>
+<g style="animation:fade .15s 6.49s both"><text x="384.0" y="278" font-size="14" class="dim"  textLength="75.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Languages</text></g>
+<text x="520.0" y="278" font-size="14" class=""  textLength="260.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">English (IELTS 8.0), Indonesian</text><rect class="mask" x="519.0" y="264.0" width="263.4" height="19.6" fill="#120d07" style="animation:type 0.68s steps(31,jump-start) 6.59s both"/>
+<g style="animation:fade .15s 7.36s both"><text x="384.0" y="308" font-size="14" class="dim"  textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Method</text></g>
+<text x="520.0" y="308" font-size="14" class=""  textLength="252.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">build it, break it, rebuild it</text><rect class="mask" x="519.0" y="294.0" width="255.0" height="19.6" fill="#120d07" style="animation:type 0.66s steps(30,jump-start) 7.46s both"/>
+<g style="animation:fade .15s 8.20s both"><text x="384.0" y="338" font-size="14" class="dim"  textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Status</text></g>
+<text x="520.0" y="338" font-size="14" class=""  textLength="100.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">open to work</text><rect class="mask" x="519.0" y="324.0" width="103.8" height="19.6" fill="#120d07" style="animation:type 0.26s steps(12,jump-start) 8.30s both"/>
+<circle class="blink" cx="632.8" cy="333" r="4.5" fill="#ffb000" style="animation-delay:8.64s"/>
 <text x="384.0" y="372" font-size="12" class="dim"  textLength="252.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">↑↓ select    Enter open    Esc exit</text>
 </g></g>
 <rect class="band" width="900" height="120" fill="url(#band)"/>

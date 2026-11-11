@@ -168,8 +168,8 @@ body = [txt(X0, 32, "OPERATOR.PCX", 12, "dim")[0],
 
 RX, VX = 384, 520
 rows = [("Operator", "Timothy Sebastian Darmawan"), ("Base", "Jakarta, Indonesia"),
-        ("Track", "Cyber Security"), ("Works on", "detections, backend, infra"),
-        ("Desktops", "Arch+niri, Fedora+Hyprland, NixOS"), ("Editor", "Neovim, VS Code"),
+        ("Track", "Cyber Security"), ("Works on", "detections, infra, tools"),
+        ("Desktops", "Arch+niri, Fedora+Hyprland, NixOS"), ("Into", "AI: new models, agents"),
         ("Languages", "English (IELTS 8.0), Indonesian"), ("Method", "build it, break it, rebuild it"),
         ("Status", "open to work")]
 body.append(typed(RX, 50, "SYSTEM CONFIGURATION", 0.2, size=15, cls="hot"))
@@ -182,7 +182,7 @@ for i, (k, v) in enumerate(rows):
     body.append(f'<g style="animation:fade .15s {t:.2f}s both">{txt(RX, y, k, 14, "dim")[0]}</g>')
     body.append(typed(VX, y, v, t + 0.1))
     t += len(v) * 0.022 + 0.18
-body.append(f'<circle class="blink" cx="{VX + len(rows[-1][1]) * CW * 14 + 12:.1f}" cy="{ROW0 + 8 * RH - 5}" r="4.5" fill="{A}" style="animation-delay:{t:.2f}s"/>')
+body.append(f'<circle class="blink" cx="{VX + len(rows[-1][1]) * CW * 14 + 12:.1f}" cy="{ROW0 + (len(rows) - 1) * RH - 5}" r="4.5" fill="{A}" style="animation-delay:{t:.2f}s"/>')
 body.append(txt(RX, 372, "↑↓ select    Enter open    Esc exit", 12, "dim")[0])
 n = len(rows)
 stops = "".join(f"{i * 100 / n:.2f}%{{transform:translateY({i * RH}px)}}" for i in range(n))
@@ -194,11 +194,11 @@ crt("operator.svg", W, H, "\n".join(body), title="Operator profile: dithered ava
 
 # ---------- ticker.svg ----------
 W, H, SZ = 900, 44, 13
-item = "  SECURITY DETECTIONS  ■  BACKEND SERVICES  ■  LINUX + CLOUD INFRA  ■  DEVELOPER TOOLS  ■  MEDIA AUTOMATION  ■"
+item = "  SECURITY DETECTIONS  ■  LINUX + CLOUD INFRA  ■  AI + AGENTS  ■  BACKEND SERVICES  ■  DEVELOPER TOOLS  ■"
 iw = len(item) * CW * SZ
 copies = math.ceil(W / iw) + 1
 strip = "".join(txt(k * iw, 27, item, SZ)[0] for k in range(copies))
-crt("ticker.svg", W, H, f'<g class="mq">{strip}</g>', title="Security detections, backend services, Linux and cloud infra, developer tools, media automation",
+crt("ticker.svg", W, H, f'<g class="mq">{strip}</g>', title="Security detections, Linux and cloud infra, AI and agents, backend services, developer tools",
     css=f".mq{{animation:mq {iw / 40:.1f}s linear infinite}}@keyframes mq{{to{{transform:translateX(-{iw:.1f}px)}}}}")
 
 # ---------- stack.svg ----------
